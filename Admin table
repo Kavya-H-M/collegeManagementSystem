@@ -1,0 +1,2 @@
+[Email]    VARCHAR (500) NOT NULL,
+    [Password] VARCHAR (500) NOT NULL
