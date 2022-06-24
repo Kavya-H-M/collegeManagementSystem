@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[student] (
+    [sname]      VARCHAR (500) NULL,
+    [semail]     VARCHAR (500) NOT NULL,
+    [department] VARCHAR (500) NULL,
+    [ssem]       INT           NULL,
+    [sgender]    VARCHAR (500) NULL,
+    [addedby]    VARCHAR (50)  NULL,
+    CONSTRAINT [PK_Table] PRIMARY KEY CLUSTERED ([semail] ASC)
+);
