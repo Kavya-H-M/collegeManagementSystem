@@ -1,0 +1,10 @@
+CREATE TABLE [dbo].[teacher] (
+    [Id]         INT           NOT NULL,
+    [tname]      VARCHAR (500) NULL,
+    [temail]     VARCHAR (500) NOT NULL,
+    [tpswd]      VARCHAR (500) NULL,
+    [department] VARCHAR (500) NULL,
+    [tsem]       VARCHAR (500) NULL,
+    [tgender]    VARCHAR (500) NULL,
+    PRIMARY KEY CLUSTERED ([temail] ASC)
+);
