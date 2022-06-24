@@ -1,0 +1,1 @@
+create table studentcont ( Email varchar(200) ,Name varchar(200), Addby varchar(200))
